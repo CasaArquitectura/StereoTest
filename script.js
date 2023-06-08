@@ -131,7 +131,7 @@
     "class": "ImageResource",
     "levels": [
      {
-      "url": "media/panorama_9394F409_98A8_A439_41DA_5F5B0679E824_0/0/{row}_{column}.jpg",
+      "url": "media/panorama_89318108_98E7_FC27_4191_E6334428D529_0/0/{row}_{column}.jpg",
       "rowCount": 3,
       "class": "TiledImageResourceLevel",
       "tags": "ondemand",
@@ -140,7 +140,7 @@
       "height": 1536
      },
      {
-      "url": "media/panorama_9394F409_98A8_A439_41DA_5F5B0679E824_0/1/{row}_{column}.jpg",
+      "url": "media/panorama_89318108_98E7_FC27_4191_E6334428D529_0/1/{row}_{column}.jpg",
       "rowCount": 2,
       "class": "TiledImageResourceLevel",
       "tags": "ondemand",
@@ -149,7 +149,7 @@
       "height": 1024
      },
      {
-      "url": "media/panorama_9394F409_98A8_A439_41DA_5F5B0679E824_0/2/{row}_{column}.jpg",
+      "url": "media/panorama_89318108_98E7_FC27_4191_E6334428D529_0/2/{row}_{column}.jpg",
       "rowCount": 1,
       "class": "TiledImageResourceLevel",
       "tags": [
@@ -163,90 +163,24 @@
     ]
    },
    "class": "CubicPanoramaFrame",
-   "thumbnailUrl": "media/panorama_9394F409_98A8_A439_41DA_5F5B0679E824_t.jpg"
+   "thumbnailUrl": "media/panorama_89318108_98E7_FC27_4191_E6334428D529_t.jpg"
   }
  ],
  "vfov": 180,
  "hfov": 360,
- "label": "StereoPanoTet",
- "id": "panorama_9394F409_98A8_A439_41DA_5F5B0679E824",
- "thumbnailUrl": "media/panorama_9394F409_98A8_A439_41DA_5F5B0679E824_t.jpg",
+ "label": "StereoPanoTest2",
+ "id": "panorama_89318108_98E7_FC27_4191_E6334428D529",
+ "thumbnailUrl": "media/panorama_89318108_98E7_FC27_4191_E6334428D529_t.jpg",
  "partial": false,
  "class": "Panorama",
  "pitch": 0
 },
 {
- "viewerArea": "this.MainViewer",
- "buttonCardboardView": [
-  "this.IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB",
-  "this.IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270"
- ],
- "buttonToggleHotspots": "this.IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96",
- "class": "PanoramaPlayer",
- "touchControlMode": "drag_rotation",
- "id": "MainViewerPanoramaPlayer",
- "gyroscopeVerticalDraggingEnabled": true,
- "displayPlaybackBar": true,
- "buttonToggleGyroscope": "this.IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A",
- "mouseControlMode": "drag_acceleration"
-},
-{
- "automaticZoomSpeed": 10,
- "class": "PanoramaCamera",
- "initialPosition": {
-  "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- },
- "initialSequence": {
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence",
-  "movements": [
-   {
-    "yawDelta": 18.5,
-    "yawSpeed": 7.96,
-    "easing": "cubic_in",
-    "class": "DistancePanoramaCameraMovement"
-   },
-   {
-    "yawDelta": 323,
-    "yawSpeed": 7.96,
-    "easing": "linear",
-    "class": "DistancePanoramaCameraMovement"
-   },
-   {
-    "yawDelta": 18.5,
-    "yawSpeed": 7.96,
-    "easing": "cubic_out",
-    "class": "DistancePanoramaCameraMovement"
-   }
-  ]
- },
- "id": "panorama_9394F409_98A8_A439_41DA_5F5B0679E824_camera"
-},
-{
- "items": [
-  {
-   "media": "this.panorama_9394F409_98A8_A439_41DA_5F5B0679E824",
-   "class": "PanoramaPlayListItem",
-   "camera": "this.panorama_9394F409_98A8_A439_41DA_5F5B0679E824_camera",
-   "end": "this.trigger('tourEnded')",
-   "player": "this.MainViewerPanoramaPlayer"
-  }
- ],
- "id": "mainPlayList",
+ "id": "ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist",
  "class": "PlayList"
 },
 {
- "items": [
-  {
-   "media": "this.panorama_9394F409_98A8_A439_41DA_5F5B0679E824",
-   "player": "this.MainViewerPanoramaPlayer",
-   "class": "PanoramaPlayListItem",
-   "camera": "this.panorama_9394F409_98A8_A439_41DA_5F5B0679E824_camera"
-  }
- ],
- "id": "ThumbnailList_034EDD7A_0D3B_3991_41A5_D706671923C0_playlist",
+ "id": "mainPlayList",
  "class": "PlayList"
 },
 {
@@ -931,126 +865,6 @@
  }
 },
 {
- "transparencyActive": true,
- "maxHeight": 58,
- "paddingLeft": 0,
- "propagateClick": true,
- "id": "IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB",
- "maxWidth": 58,
- "horizontalAlign": "center",
- "width": 58,
- "borderSize": 0,
- "minHeight": 1,
- "verticalAlign": "middle",
- "iconURL": "skin/IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB.png",
- "paddingRight": 0,
- "minWidth": 1,
- "mode": "push",
- "height": 58,
- "rollOverIconURL": "skin/IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB_rollover.png",
- "paddingTop": 0,
- "shadow": false,
- "backgroundOpacity": 0,
- "borderRadius": 0,
- "visible": false,
- "paddingBottom": 0,
- "cursor": "hand",
- "class": "IconButton",
- "data": {
-  "name": "IconButton VR"
- }
-},
-{
- "transparencyActive": true,
- "maxHeight": 37,
- "paddingLeft": 0,
- "propagateClick": true,
- "id": "IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270",
- "maxWidth": 49,
- "horizontalAlign": "center",
- "right": 30,
- "width": 100,
- "borderSize": 0,
- "minHeight": 1,
- "verticalAlign": "middle",
- "iconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270.png",
- "paddingRight": 0,
- "bottom": 8,
- "minWidth": 1,
- "mode": "push",
- "height": 75,
- "rollOverIconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270_rollover.png",
- "paddingTop": 0,
- "shadow": false,
- "backgroundOpacity": 0,
- "borderRadius": 0,
- "pressedIconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270_pressed.png",
- "paddingBottom": 0,
- "cursor": "hand",
- "class": "IconButton",
- "data": {
-  "name": "IconButton VR"
- }
-},
-{
- "transparencyActive": true,
- "maxHeight": 58,
- "paddingLeft": 0,
- "propagateClick": true,
- "id": "IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96",
- "maxWidth": 58,
- "horizontalAlign": "center",
- "width": 58,
- "borderSize": 0,
- "minHeight": 1,
- "verticalAlign": "middle",
- "iconURL": "skin/IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96.png",
- "paddingRight": 0,
- "minWidth": 1,
- "mode": "toggle",
- "height": 58,
- "paddingTop": 0,
- "shadow": false,
- "backgroundOpacity": 0,
- "borderRadius": 0,
- "pressedIconURL": "skin/IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96_pressed.png",
- "paddingBottom": 0,
- "cursor": "hand",
- "class": "IconButton",
- "data": {
-  "name": "IconButton HS "
- }
-},
-{
- "transparencyActive": true,
- "maxHeight": 58,
- "paddingLeft": 0,
- "propagateClick": true,
- "id": "IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A",
- "maxWidth": 58,
- "horizontalAlign": "center",
- "width": 58,
- "borderSize": 0,
- "minHeight": 1,
- "verticalAlign": "middle",
- "iconURL": "skin/IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A.png",
- "paddingRight": 0,
- "minWidth": 1,
- "mode": "toggle",
- "height": 58,
- "paddingTop": 0,
- "shadow": false,
- "backgroundOpacity": 0,
- "borderRadius": 0,
- "pressedIconURL": "skin/IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A_pressed.png",
- "paddingBottom": 0,
- "cursor": "hand",
- "class": "IconButton",
- "data": {
-  "name": "IconButton GYRO"
- }
-},
-{
  "paddingLeft": 0,
  "propagateClick": true,
  "layout": "horizontal",
@@ -1268,6 +1082,38 @@
  "class": "Container",
  "data": {
   "name": "-button set container"
+ }
+},
+{
+ "transparencyActive": true,
+ "maxHeight": 37,
+ "paddingLeft": 0,
+ "propagateClick": true,
+ "id": "IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270",
+ "maxWidth": 49,
+ "horizontalAlign": "center",
+ "right": 30,
+ "width": 100,
+ "borderSize": 0,
+ "minHeight": 1,
+ "verticalAlign": "middle",
+ "iconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270.png",
+ "paddingRight": 0,
+ "bottom": 8,
+ "minWidth": 1,
+ "mode": "push",
+ "height": 75,
+ "rollOverIconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270_rollover.png",
+ "paddingTop": 0,
+ "shadow": false,
+ "backgroundOpacity": 0,
+ "borderRadius": 0,
+ "pressedIconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270_pressed.png",
+ "paddingBottom": 0,
+ "cursor": "hand",
+ "class": "IconButton",
+ "data": {
+  "name": "IconButton VR"
  }
 },
 {
@@ -1857,6 +1703,94 @@
  "class": "IconButton",
  "data": {
   "name": "image button menu"
+ }
+},
+{
+ "transparencyActive": true,
+ "maxHeight": 58,
+ "paddingLeft": 0,
+ "propagateClick": true,
+ "id": "IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB",
+ "maxWidth": 58,
+ "horizontalAlign": "center",
+ "width": 58,
+ "borderSize": 0,
+ "minHeight": 1,
+ "verticalAlign": "middle",
+ "iconURL": "skin/IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB.png",
+ "paddingRight": 0,
+ "minWidth": 1,
+ "mode": "push",
+ "height": 58,
+ "rollOverIconURL": "skin/IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB_rollover.png",
+ "paddingTop": 0,
+ "shadow": false,
+ "backgroundOpacity": 0,
+ "borderRadius": 0,
+ "visible": false,
+ "paddingBottom": 0,
+ "cursor": "hand",
+ "class": "IconButton",
+ "data": {
+  "name": "IconButton VR"
+ }
+},
+{
+ "transparencyActive": true,
+ "maxHeight": 58,
+ "paddingLeft": 0,
+ "propagateClick": true,
+ "id": "IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A",
+ "maxWidth": 58,
+ "horizontalAlign": "center",
+ "width": 58,
+ "borderSize": 0,
+ "minHeight": 1,
+ "verticalAlign": "middle",
+ "iconURL": "skin/IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A.png",
+ "paddingRight": 0,
+ "minWidth": 1,
+ "mode": "toggle",
+ "height": 58,
+ "paddingTop": 0,
+ "shadow": false,
+ "backgroundOpacity": 0,
+ "borderRadius": 0,
+ "pressedIconURL": "skin/IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A_pressed.png",
+ "paddingBottom": 0,
+ "cursor": "hand",
+ "class": "IconButton",
+ "data": {
+  "name": "IconButton GYRO"
+ }
+},
+{
+ "transparencyActive": true,
+ "maxHeight": 58,
+ "paddingLeft": 0,
+ "propagateClick": true,
+ "id": "IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96",
+ "maxWidth": 58,
+ "horizontalAlign": "center",
+ "width": 58,
+ "borderSize": 0,
+ "minHeight": 1,
+ "verticalAlign": "middle",
+ "iconURL": "skin/IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96.png",
+ "paddingRight": 0,
+ "minWidth": 1,
+ "mode": "toggle",
+ "height": 58,
+ "paddingTop": 0,
+ "shadow": false,
+ "backgroundOpacity": 0,
+ "borderRadius": 0,
+ "pressedIconURL": "skin/IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96_pressed.png",
+ "paddingBottom": 0,
+ "cursor": "hand",
+ "class": "IconButton",
+ "data": {
+  "name": "IconButton HS "
  }
 },
 {
